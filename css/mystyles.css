@@ -1,26 +1,4 @@
 
-/********* Landing Page **********/
-
-.landing {
-  background: url(/img/landingimg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-
-.clearlanding {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width:  100%;
-  height: 100%;
-  opacity: 0; 
-}
-
 
 /********* Main Page **********/
 
@@ -29,73 +7,9 @@
   background: url(../img/jackie-cropped.png) no-repeat center fixed;
 }
 
-a {
-  color: #000;
-  text-decoration: none; 
-}
 
 a:hover {
   text-decoration: none; 
   color: #000;
 }
 
-
-/********* Navigation **********/
-
-
-.main-nav {
-  background-image: linear-gradient(to right, rgba(250,250,250,1) 10%, rgba(250,250,250,0));
-  width: 20%;
-  height: 100%;
-  position: absolute;
-  z-index: 1;
-}
-
-.name {
-  font-family: 'Arimo', sans-serif; 
-  color: #000;
-  margin: 0px 20px; 
-  padding: 0; 
-  
-}
-
-.title {
-  font-family: 'Arimo', sans-serif;
-  font-size: .8em; 
-  margin: 0 20px; 
-}
-
-.nav-links {
-  font-family: 'Quicksand', sans-serif;
-}
-
-.nav-links a:hover {
-  text-decoration: underline;
-}
-
-
-/********* Gallery **********/
-
-
-.variable-width img {
-  margin-top: 20%;
-  height: 500px;
-}
-
-
-/********* Footer **********/
-
-.footer {
-  position: absolute;
-  z-index: 2;
-}
-
-.media-links li {
-  display: inline-flex; 
-  margin: 0 8px;
-}
-
-.media-links img {
-  width: 25px; 
-  height: 25px;
-}
