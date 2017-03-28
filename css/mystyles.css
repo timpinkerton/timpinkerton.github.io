@@ -1,0 +1,21 @@
+
+
+/********* Main Page **********/
+
+
+.main {
+  background: url(../img/jackie-cropped.png) no-repeat center fixed;
+}
+
+/*
+a {
+  color: #000;
+  text-decoration: none; 
+}
+*/
+
+a:hover {
+  text-decoration: none; 
+  color: #000;
+}
+
